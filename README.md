@@ -1,5 +1,6 @@
 # songbird-architecture
 
+```mermaid
 flowchart TD
     U[Utente] --> UI[Web UI HTTPS]
     UI --> API[Control Panel API]
@@ -22,12 +23,4 @@ flowchart TD
     AUDIT --> STORE
     GIT --> REPO[(Git Repository)]
     BPF --> EVT[Ring Buffer Events]
-
-    classDef dashed fill:#ffffff,stroke:#111827,stroke-width:1px,stroke-dasharray: 5 5;
-    class AUDIT,NET,OBS,DNS,DHCP dashed;
-
-    linkStyle 2 stroke:#111827,stroke-width:1px;
-    linkStyle 4 stroke:#111827,stroke-width:1px,stroke-dasharray: 5 5;
-    linkStyle 8 stroke:#111827,stroke-width:1px,stroke-dasharray: 5 5;
-    linkStyle 9 stroke:#111827,stroke-width:1px,stroke-dasharray: 5 5;
-    linkStyle 10 stroke:#111827,stroke-width:1px,stroke-dasharray: 5 5;
+```
