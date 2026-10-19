@@ -1,3 +1,9 @@
+# ARCHIVED
+## This repository has been archived, the development has moved to https://github.com/songbird-fw/songbird-fw
+
+---
+---
+
 # songbird-architecture
 
 Architectural design of Songbird. Requirements live in `songbird-requirements-analysis`; the configuration schema in `songbird-yaml-schema`.
